@@ -26,7 +26,7 @@ const MyLearningPage = () => {
             // Assuming you might want to show a loading state while the request is in progress
             // setIsLoading(true);
           
-            fetch(`https://anxious-bull-glasses.cyclic.app/users/mylearning/${courseid}`, {
+            fetch(`https://studi-hub-atlas.onrender.com/users/mylearning/${courseid}`, {
               method: 'DELETE',
               headers: {
                 'Content-Type': 'application/json',
@@ -68,7 +68,7 @@ const MyLearningPage = () => {
     const fetchData = async () => {
         try {
             setIsLoading(true);
-            const res = await fetch('https://anxious-bull-glasses.cyclic.app/users/mylearning', {
+            const res = await fetch('https://studi-hub-atlas.onrender.com/users/mylearning', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -93,6 +93,10 @@ const MyLearningPage = () => {
     const handleButtonText = (text) => {
         // Do something with the button text if needed
     };
+
+    useEffect(()=> {
+        window.scrollTo(0,0)
+      },[])
 
     return (
         <Box w={'100%'} m={'auto'} paddingTop={'70px'}>

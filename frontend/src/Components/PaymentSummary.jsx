@@ -30,11 +30,12 @@ export const PaymentSummary = () => {
     const data = totalPrice;
     dispatch(addPayment(_id, data));
     setState(true);
+    alert("Payment Successfull!!")
   };
 
   const addToLearning = () => {
     // localStorage.setItem("cart", course.price);
-    fetch(`https://anxious-bull-glasses.cyclic.app/users/mylearning/${_id}`, {
+    fetch(`https://studi-hub-atlas.onrender.com/users/mylearning/${_id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

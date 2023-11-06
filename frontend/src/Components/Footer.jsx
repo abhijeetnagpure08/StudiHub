@@ -382,7 +382,7 @@ const Footer = () => {
         <Box>
           {" "}
           <Text fontSize="13.5px">
-            © 2023 Skill Hub Inc. All rights reserved.
+            © 2023 Studi Hub Inc. All rights reserved.
           </Text>
         </Box>
         <Flex

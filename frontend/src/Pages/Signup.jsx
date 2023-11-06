@@ -86,7 +86,7 @@ export const Signup = () => {
 
     //.post("http://localhost:8080/users/register", payload)
     axios
-      .post("https://anxious-bull-glasses.cyclic.app/users/register", payload)
+      .post("https://studi-hub-atlas.onrender.com/users/register", payload)
       .then((res) => {
         //alert(res.data.msg);
         if (res.data.msg === "Registration Successful") {

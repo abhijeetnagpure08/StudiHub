@@ -24,13 +24,19 @@ const Cart = () => {
   };
 
   useEffect(() => {
-    dispatch(getcart);
+    setTimeout(() => {  
+      dispatch(getcart);
+    }, 1000);
   }, []);
 
   let totalPrice = 0;
   cart.forEach((el) => {
     totalPrice += el.price;
   });
+
+  useEffect(()=> {
+    console.log("cart",cart)
+  },[])
 
   const discountedPrice = totalPrice - totalPrice * discount;
 

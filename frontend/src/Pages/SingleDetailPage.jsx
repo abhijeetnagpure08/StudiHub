@@ -55,7 +55,7 @@ export const SingleDetailPage = () => {
 
   // const singlePage = () => {
   // // setLoading(true);
-  // // .get(`https://anxious-bull-glasses.cyclic.app/course/singleProductPage/${id}`)
+  // // .get(`https://studi-hub-atlas.onrender.com/course/singleProductPage/${id}`)
 
   //    axios
   //     .get(`http://localhost:8080/course/singleProductPage/${id}`,{
@@ -76,7 +76,7 @@ export const SingleDetailPage = () => {
   useEffect(() => {
     //fetch(`http://localhost:8080/course/singleProductPage/${courseId}`, {
     fetch(
-      `https://anxious-bull-glasses.cyclic.app/course/singleProductPage/${courseId}`,
+      `https://studi-hub-atlas.onrender.com/course/singleRoute/${courseId}`,
       {
         method: "GET",
         headers: {
@@ -94,7 +94,7 @@ export const SingleDetailPage = () => {
   const addToCart = () => {
   // localStorage.setItem("cart", course.price);
   fetch(
-    `https://anxious-bull-glasses.cyclic.app/users/cart/${courseId}`,
+    `https://studi-hub-atlas.onrender.com/users/cart/${courseId}`,
     {
       method: "PATCH",
       headers: {
@@ -107,6 +107,10 @@ export const SingleDetailPage = () => {
     .then((data) => console.log(data))
     .catch((err) => console.log(err));
   };
+
+  useEffect(()=> {
+    window.scrollTo(0,0)
+  },[])
 
   return (
     <Container maxW={"7xl"} pt={{ base: "50px", md: "40px", lg: "80px" }}>

@@ -104,7 +104,7 @@ const Payment = () => {
                 color={"#6A6F73"}
                 mt={["0", "0", "6px"]}
               >
-                Skillhub is required by law to collect applicable transaction
+                Studihub is required by law to collect applicable transaction
                 taxes for purchases made in certain tax jurisdictions.
               </Text>
               <PaymentMethod />

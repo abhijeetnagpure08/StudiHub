@@ -1,6 +1,7 @@
 import { Button, Flex, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import sectionImage from "../../asset/sectionImage.png";
+import { Link } from "react-router-dom";
 const Section6 = () => {
   return (
     <Flex
@@ -46,7 +47,7 @@ const Section6 = () => {
             lg: "45 px",
           }}
         >
-          Learner outcomes on <b style={{ color: "#a435f0" }}>SKILL HUB</b>
+          Learner outcomes on <b style={{ color: "#a435f0" }}>STUDI HUB</b>
         </Text>
         <Text
           fontFamily={"poppins"}
@@ -56,7 +57,7 @@ const Section6 = () => {
             lg: "16px",
           }}
         >
-          According to a recent report by Skill Hub (2023),{" "}
+          According to a recent report by Studi Hub (2023),{" "}
           <span>
             <b>87% of learners experienced career benefits</b>
           </span>
@@ -67,6 +68,7 @@ const Section6 = () => {
           today's competitive job market.
         </Text>
         <Flex>
+          <Link to={"/signin"}>
           <Button
             bgColor={"#a435f0"}
             _hover={{ backgroundColor: "#9900ff" }}
@@ -79,6 +81,7 @@ const Section6 = () => {
           >
             Join for Free
           </Button>
+          </Link>
         </Flex>
       </Flex>
     </Flex>

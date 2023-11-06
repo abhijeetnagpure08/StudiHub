@@ -42,7 +42,7 @@ export const AdminNavbar = ({title}) => {
     try {
       setIsLoading(true);
       const response = await fetch(
-        `https://anxious-bull-glasses.cyclic.app/course?search=${encodeURIComponent(
+        `https://studi-hub-atlas.onrender.com/course?search=${encodeURIComponent(
           searchQuery
         )}`
       );

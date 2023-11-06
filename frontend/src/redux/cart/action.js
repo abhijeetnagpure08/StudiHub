@@ -7,12 +7,12 @@ import {
   GET_CART_SUCCESS,
   GET_PAYMENT_SUCCESS,
 } from "./actionTypes";
-// https://anxious-bull-glasses.cyclic.app/users/cart/
+// https://studi-hub-atlas.onrender.com/users/cart/
 export const getcart = (dispatch) => {
   dispatch({ type: CART_REQUEST });
   axios({
     method: "get",
-    url: "https://anxious-bull-glasses.cyclic.app/users/cart/",
+    url: "https://studi-hub-atlas.onrender.com/users/cart/",
     headers: {
       authorization: `Bearer ${localStorage.getItem("frontendtoken")}`,
     },
@@ -32,7 +32,7 @@ export const deleteCart = (_id) => (dispatch) => {
   dispatch({ type: CART_REQUEST });
   return axios({
     method: "delete",
-    url: `https://anxious-bull-glasses.cyclic.app/users/cart/${_id}`,
+    url: `https://studi-hub-atlas.onrender.com/users/cart/${_id}`,
     headers: {
       authorization: `Bearer ${localStorage.getItem("frontendtoken")}`,
     },
@@ -53,7 +53,7 @@ export const addPayment = (_id, data) => (dispatch) => {
   axios({
     method: "patch",
 
-    url: `https://anxious-bull-glasses.cyclic.app/users/cart/payment/${_id}`,
+    url: `https://studi-hub-atlas.onrender.com/users/cart/payment/${_id}`,
     data: { payment: data },
     headers: {
       "Content-Type": "application/json",

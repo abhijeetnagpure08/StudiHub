@@ -36,7 +36,7 @@ const Section5 = () => {
                 transition: "color 0.5s ease",
               }}
             >
-              Skill Hub
+              Studi Hub
             </Box>
           </span>
         </Text>

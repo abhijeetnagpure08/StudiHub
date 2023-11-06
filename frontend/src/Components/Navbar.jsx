@@ -41,7 +41,7 @@ export const Navbar = () => {
     try {
       setIsLoading(true);
       const response = await fetch(
-        `https://anxious-bull-glasses.cyclic.app/course?search=${encodeURIComponent(
+        `https://studi-hub-atlas.onrender.com/course?search=${encodeURIComponent(
           searchQuery
         )}`
       );
@@ -97,7 +97,7 @@ export const Navbar = () => {
       >
         <Box onClick={() => navigate("/")}>
           <Text fontSize={"2xl"} fontWeight="extrabold" color="#a435f0">
-            SKILL HUB
+            STUDI HUB
           </Text>
         </Box>
         {!isMobile && (
@@ -163,7 +163,7 @@ export const Navbar = () => {
               href="/enterprise"
               fontSize={fontSize}
             >
-              Skill Hub Business
+              Studi Hub Business
             </Link>
           </Box>
           <Box mr={4}>
@@ -172,7 +172,7 @@ export const Navbar = () => {
               href="/universities"
               fontSize={fontSize}
             >
-              Teach on Skill Hub
+              Teach on Studi Hub
             </Link>
           </Box>
           {/* <Box mr={4}>

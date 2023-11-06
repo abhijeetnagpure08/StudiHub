@@ -1,5 +1,6 @@
 import { Flex, Text, Button, Image, Box } from "@chakra-ui/react";
 import teacher from "../../asset/A.png";
+import { Link } from "react-router-dom";
 const Section1 = () => {
   return (
     <Flex
@@ -52,6 +53,7 @@ const Section1 = () => {
             lg: "row",
           }}
         >
+          <Link to={"/signin"}>
           <Button
             bg="#a435f0"
             color="white"
@@ -69,6 +71,7 @@ const Section1 = () => {
           >
             Join for Free
           </Button>
+          </Link>
           <Button
             colorScheme="#a435f0"
             color="#a435f0"
@@ -85,7 +88,7 @@ const Section1 = () => {
               color: "white",
             }}
           >
-            Try Skill Hub for Business
+            Try Studi Hub for Business
           </Button>
         </Flex>
       </Flex>

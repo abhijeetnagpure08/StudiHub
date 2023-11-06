@@ -26,7 +26,7 @@ export const SingleVideoPage = () => {
     try {
       setIsLoading(true);
   
-      const res = await fetch(`https://anxious-bull-glasses.cyclic.app/users/mylearning/singleVideoPage/${id}`, {
+      const res = await fetch(`https://studi-hub-atlas.onrender.com/users/mylearning/singleVideoPage/${id}`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -117,7 +117,15 @@ export const SingleVideoPage = () => {
               </Box>
               <Flex className='container2' borderBottom={'1px solid black'}>
                 <Box>
-                  <Text>By the numbers</Text>
+                  <Text fontWeight={'bold'}>Author Name</Text>
+                </Box>
+                <Box ml={4}>
+                  <Text>{singleData?.author}</Text>
+                </Box>
+              </Flex>
+              <Flex className='container2' borderBottom={'1px solid black'}>
+                <Box>
+                  <Text fontWeight={'bold'}>By the numbers</Text>
                 </Box>
                 <Box ml={4}>
                   <Text>Skill Level: All Levels</Text>
@@ -128,17 +136,17 @@ export const SingleVideoPage = () => {
                 </Box>
               </Flex>
               <Flex className='container3' borderBottom={'1px solid black'}>
-                <Box>Certificates</Box>
+                <Box fontWeight={'bold'}>Certificates</Box>
                 <Box>
                   <Text>
-                    Get Skill Hub certificate by completing the entire course
+                    Get Studi Hub certificate by completing the entire course
                   </Text>
                   <br />
-                  <Button colorScheme='blue' bg={'#a435f0'}>Skill Hub Certificate</Button>
+                  <Button colorScheme='blue' bg={'#a435f0'}>Studi Hub Certificate</Button>
                 </Box>
               </Flex>
               <Flex className='container4' borderBottom={'1px solid black'}>
-                <Box>Features</Box>
+                <Box fontWeight={'bold'}>Features</Box>
                 <Box ml={4}>
                   <Text>Available on iOS and Android</Text>
                   <br />
@@ -146,7 +154,7 @@ export const SingleVideoPage = () => {
                 </Box>
               </Flex>
               <Flex className='container5' borderBottom={'1px solid black'}>
-                <Box>Description</Box>
+                <Box fontWeight={'bold'}>Description</Box>
                 <Box ml={4}>
                   <Text>{singleData?.description}</Text>
                 </Box>

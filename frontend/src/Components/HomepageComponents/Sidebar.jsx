@@ -140,7 +140,7 @@ const Sidebar = () => {
 
     const queryString = queryParams.toString();
 
-    let url = `https://anxious-bull-glasses.cyclic.app/course?${queryString}`;
+    let url = `https://studi-hub-atlas.onrender.com/course?${queryString}`;
 
     fetch(url)
       .then((response) => {
@@ -220,7 +220,7 @@ const Sidebar = () => {
     try {
       setIsLoading(true);
       const response = await fetch(
-        `https://anxious-bull-glasses.cyclic.app/course?search=${searchQuery}`
+        `https://studi-hub-atlas.onrender.com/course?search=${searchQuery}`
       );
       const data = await response.json();
       console.log(data.course)
@@ -234,6 +234,10 @@ const Sidebar = () => {
       setIsLoading(false);
     }
   }
+  
+  useEffect(()=> {
+    window.scrollTo(0,0)
+  },[])
 
   return (
     <Flex>

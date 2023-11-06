@@ -29,7 +29,7 @@ const handleAdd=()=>{
      duration:duration,
      videos:videos
   }
-  fetch(`https://anxious-bull-glasses.cyclic.app/admincourse/add`, {
+  fetch(`https://studi-hub-atlas.onrender.com/admincourse/add`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
