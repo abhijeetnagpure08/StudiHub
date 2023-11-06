@@ -143,7 +143,7 @@ export const SingleVideoPage = () => {
                     Get Studi Hub certificate by completing the entire course
                   </Text>
                   <br />
-                  <Button colorScheme='blue' bg={'#a435f0'}>Studi Hub Certificate</Button>
+                  <a href="certificate.png" target="_blank" download><Button colorScheme='blue' bg={'#a435f0'}>Studi Hub Certificate</Button></a>
                 </Box>
               </Flex>
               <Flex className='container4' borderBottom={'1px solid black'}>

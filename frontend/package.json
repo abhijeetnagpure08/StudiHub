@@ -29,6 +29,7 @@
     "redux-thunk": "^2.4.2",
     "slick-carousel": "^1.8.1",
     "swiper": "^10.0.4",
+    "vercel": "^32.5.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
