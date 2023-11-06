@@ -238,17 +238,22 @@ userRouter.patch("/cart/payment/:courseId",middleware,async(req,res)=>{
 // ---------------------------------display products in my learning---------------------------------
 userRouter.get("/mylearning",middleware,async(req,res)=>{
   try{
-  const userId=String(req.body.adminId)
-  const client=await UserModel.findById(userId)
-  const checkID=client.mylearning
-  await client.populate("mylearning")
+    const userId=String(req.body.userID)
+    const client=await UserModel.findById(userId)
+    await client.populate("mylearning")
 
-  res.send(client.mylearning)
+    res.send(client.mylearning)
   }catch(err){
       console.log(err)
       return res.status(500).json({message:"Internal server error"})
   }
 })
+
+// userRouter.get("/mylearning",middleware,async(req,res)=>{
+//   const userID = req.query._id
+//   const updatePost=await UserModel.mylearning.findById({userID})
+//       res.send(updatePost)
+// })
 
   
 // --------------------------------delete products from my learing page
