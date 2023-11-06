@@ -72,6 +72,7 @@ if ( !email || !password) {
   try {
     const user = await UserModel.findOne({ email });
     if (user) {
+      const name = user.name;
       bcrypt.compare(password, user.password, function (err, result) {
         if (result) {
           var token = jwt.sign({ _id: user._id }, process.env.USER_SECRET, {
@@ -83,6 +84,7 @@ if ( !email || !password) {
           res.status(200).json({
             msg: "Login Successful",
             token: token,
+            name,
             refreshToken: refreshToken,
           });
         }else{
