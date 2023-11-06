@@ -249,12 +249,6 @@ userRouter.get("/mylearning",middleware,async(req,res)=>{
   }
 })
 
-// userRouter.get("/mylearning",middleware,async(req,res)=>{
-//   const userID = req.query._id
-//   const updatePost=await UserModel.mylearning.findById({userID})
-//       res.send(updatePost)
-// })
-
   
 // --------------------------------delete products from my learing page
 
