@@ -21,6 +21,7 @@ import { CourseManage } from "../Components/AdminComponents/CourseManage";
 import { UserManage } from "../Components/AdminComponents/UserManage";
 import Payment from "../Pages/Payment";
 import { AdminPayment } from "../Components/AdminComponents/AdminPayment";
+import Certificate from "../Components/Certificate";
 
 
 export const MainRoutes = () => {
@@ -61,10 +62,13 @@ export const MainRoutes = () => {
       path: "/detail/:courseId",
       element: <SingleDetailPage />,
     },
-
     {
       path: "/homepage",
       element: <Homepage />,
+    },
+    {
+      path: "/certificate",
+      element: <Certificate />,
     },
   ];
 

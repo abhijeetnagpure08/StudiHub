@@ -84,6 +84,7 @@ export const Signin = () => {
       .post("https://studi-hub-atlas.onrender.com/users/login", payload)
       .then((res) => {
         //alert(res.data.msg);
+        localStorage.setItem("userName",res.data.name)
         localStorage.setItem("frontendtoken", res.data.token);
         if (res.data.msg === "Login Successful") {
           signinSuccess(res.data.msg);

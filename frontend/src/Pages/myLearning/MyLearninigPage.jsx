@@ -87,7 +87,9 @@ const MyLearningPage = () => {
     };
 
     useEffect(() => {
-        fetchData();
+        setTimeout(() => {
+            fetchData();
+        }, 1000);
     }, []);
 
     const handleButtonText = (text) => {

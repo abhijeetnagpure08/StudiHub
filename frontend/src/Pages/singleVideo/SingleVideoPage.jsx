@@ -1,11 +1,12 @@
 
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { Box, Button, Flex, Heading, Input, Text } from '@chakra-ui/react';
 import ReactPlayer from 'react-player';
 import './SingleVideoPage.css';
 import CourseContentCard from '../../Components/CourseContentCard';
 import QuestionCard from '../../Components/QuestionCard';
+import Certificate from '../../Components/Certificate';
 
 export const SingleVideoPage = () => {
 
@@ -16,7 +17,7 @@ export const SingleVideoPage = () => {
   const [text, setText] = useState("Overview");
   const [question, setQuestion] = useState("");
   const [questionData, setQuestionData] = useState('')
-
+  const [loader, setLoader] = useState(false)
 
   const { id } = useParams();
   console.log(id)
@@ -40,8 +41,8 @@ export const SingleVideoPage = () => {
       // }
   
       const data = await res.json();
-      console.log(data);
-  
+      console.log("course",data);
+      localStorage.setItem("certificate",data.title)
       // const newData = resData?.filter((ele, ind) => ele._id === id);
 
   
