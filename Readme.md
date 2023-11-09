@@ -1,13 +1,12 @@
-# SKILL HUB
+# STUDI HUB
 
-Welcome to Skill Hub, your ultimate destination for diverse and comprehensive online courses, designed to empower learners with essential skills and knowledge. Our platform offers a wide range of courses, ranging from Python and Web Development to Amazon AWS, Machine Learning, Excel, and more, catering to learners of all levels and interests. Upon signing in, users gain access to a vast collection of course videos, neatly organized under "My Learning," allowing them to conveniently track their progress. With a user-friendly interface, individuals can effortlessly browse through our extensive course catalog, each course accompanied by detailed information, including pricing, syllabus, and other essential particulars. Embrace the opportunity to enhance your expertise, explore new domains, and embark on a transformative learning journey with Skill Hub. Join us today, and let's embark on a path of continuous growth and achievement together.
+Welcome to Studi Hub, your ultimate destination for diverse and comprehensive online courses, designed to empower learners with essential skills and knowledge. Our platform offers a wide range of courses, ranging from Python and Web Development to Amazon AWS, Machine Learning, Excel, and more, catering to learners of all levels and interests. Upon signing in, users gain access to a vast collection of course videos, neatly organized under "My Learning," allowing them to conveniently track their progress. With a user-friendly interface, individuals can effortlessly browse through our extensive course catalog, each course accompanied by detailed information, including pricing, syllabus, and other essential particulars. Embrace the opportunity to enhance your expertise, explore new domains, and embark on a transformative learning journey with Skill Hub. Join us today, and let's embark on a path of continuous growth and achievement together.
 
 # Team Members
- - [@Animesh Kalita](https://github.com/Ak-nut-47)
- - [@Sanketh Ganiga](https://github.com/SankethGaniga95)
- - [@Suraj Yadav](https://github.com/Surajy001)
- - [@Ahamad Shaikh](https://github.com/AhamadShaikh)
- - [@Juri Kalita](https://github.com/jurikalita011)
+Abhijeet Nagpure
+Aditya Bhoyar
+Aniket Dekate
+Akash Lolusare
 
 ## Links
 - [GitHub Repository](https://github.com/Ak-nut-47/greasy-sofa-2441)
