@@ -9,28 +9,33 @@ Aniket Dekate
 Akash Lolusare
 
 ## Links
-- [GitHub Repository](https://github.com/Ak-nut-47/greasy-sofa-2441)
-- [Live Demo](https://nemskillhub.netlify.app/)
+- [Live Demo](studi-hub.vercel.app)
 - 
   ## Landing Page
-  ![LandingPage](https://github.com/Ak-nut-47/greasy-sofa-2441/assets/104593018/ec289483-8909-47a9-9f44-3b7e5bbe1d42)
+![image](https://github.com/abhijeetnagpure08/StudiHub/assets/126855474/af1a3c68-b54a-44c8-b3f8-2e8e2a04add2)
+
 ***
 ***
 
   ## Navbar
- ![Navbar](https://github.com/Ak-nut-47/greasy-sofa-2441/assets/104593018/36450988-443e-4a97-801d-2c71eb381fd9)
+ ![image](https://github.com/abhijeetnagpure08/StudiHub/assets/126855474/fabcc64e-3ea2-40e7-bd1e-079ce0f82b49)
+
 ***
 ***
  ## Login Page
- ![Login](https://github.com/Ak-nut-47/greasy-sofa-2441/assets/104593018/298639fd-cb36-4f18-b929-a2ed811b6e1b)
+ ![image](https://github.com/abhijeetnagpure08/StudiHub/assets/126855474/9b49ec6a-a5c0-40f7-b2d0-baaa7e3c6350)
+
 ***
 ***
  ## Signup Page
- ![Signup](https://github.com/Ak-nut-47/greasy-sofa-2441/assets/104593018/dc42ddcc-3d13-4f0b-b8f2-e2ff6fb518b6)
+ ![image](https://github.com/abhijeetnagpure08/StudiHub/assets/126855474/c125c728-66a1-4847-baf1-4d9009893fb8)
+
 ***
 ***
  ## Home Page
- ![Homepage](https://github.com/Ak-nut-47/greasy-sofa-2441/assets/104593018/69eed546-cd33-4996-a7d0-67128a35f8b7)
+ ![image](https://github.com/abhijeetnagpure08/StudiHub/assets/126855474/18057cf7-8fcc-4727-acd4-f77f18007982)
+
+
 ***
 ***
  ## Footer
@@ -38,23 +43,20 @@ Akash Lolusare
 ***
 ***
  ## Single Course Details
- ![SingleCourseDetails](https://github.com/Ak-nut-47/greasy-sofa-2441/assets/104593018/02bce835-b216-4a05-b572-80759e52cd5c)
+ ![image](https://github.com/abhijeetnagpure08/StudiHub/assets/126855474/ae7bb02d-619c-4cc7-b3a0-75614f40134d)
+
+
 ***
 ***
  ## Shopping Cart
- ![ShoppingCart](https://github.com/Ak-nut-47/greasy-sofa-2441/assets/104593018/3f6625d2-8a77-4ed7-a782-0cf69747ebdf)
+ ![image](https://github.com/abhijeetnagpure08/StudiHub/assets/126855474/b435db20-1bf2-477e-b6a9-e6013765a1ab)
+
 ***
 ***
  ## Checkout Page 
- ![Checkout](https://github.com/Ak-nut-47/greasy-sofa-2441/assets/104593018/5d4eef2d-967b-49e0-896f-a21ebac9478e)
-***
-***
-## Non Existent Route Handler Page
-![pagenotfound](https://github.com/Ak-nut-47/greasy-sofa-2441/assets/104593018/bda37195-c8c3-41d8-b7dc-60310fff9b27)
-***
-***
-## Loading Animation 
-![Screenshot 2023-07-28 002249](https://github.com/Ak-nut-47/greasy-sofa-2441/assets/104593018/7748e0fe-2535-44ec-9273-1f9a7cbe6431)
+ ![image](https://github.com/abhijeetnagpure08/StudiHub/assets/126855474/c4bd97d9-b47b-4e6e-8ab7-abe9abf24aec)
+
+
 ***
 ***
 
