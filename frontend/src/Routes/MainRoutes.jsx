@@ -22,6 +22,7 @@ import { UserManage } from "../Components/AdminComponents/UserManage";
 import Payment from "../Pages/Payment";
 import { AdminPayment } from "../Components/AdminComponents/AdminPayment";
 import Certificate from "../Components/Certificate";
+import AdminDashboard from "../Components/AdminComponents/AdminDashboard";
 
 
 export const MainRoutes = () => {
@@ -84,6 +85,10 @@ export const MainRoutes = () => {
     {
       path: "/admin-signin",
       element: <AdminSignin />,
+    },
+    {
+      path: "/admin/dashboard",
+      element: <AdminDashboard />,
     },
     {
       path: "/admin/course",

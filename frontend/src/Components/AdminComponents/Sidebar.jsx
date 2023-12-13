@@ -48,7 +48,7 @@ export const Sidebar = () => {
     <Image src={logo} boxSize="65px"/>
      </Box>
       </Flex>
-    <SidebarItem navSize={navSize} icon={FiHome} title="Dashboard" />
+    <SidebarItem navSize={navSize} icon={FiHome} title="Dashboard" link="/admin/dashboard"/>
     <SidebarItem navSize={navSize} icon={BsFillPenFill} title="Manage Blogs"/>
     <SidebarItem navSize={navSize} icon={AiOutlineRead} title="Course" link="/admin/course"/>
     <SidebarItem navSize={navSize} icon={FiUsers} title="Manage Users" link="/admin/usermanage"/>
@@ -75,7 +75,7 @@ export const Sidebar = () => {
       <Flex mt={4} align="center">
        <Avatar size="sm" src=""/>
           <Flex flexDir="column" ml={4} display={navSize==="small"?"none":"flex"} >
-          <Heading as="h3" size="sm">Sanketh Ganiga</Heading>
+          {/* <Heading as="h3" size="sm">Sanketh Ganiga</Heading> */}
           <Text color="gray">Admin</Text>
           </Flex>
       </Flex>

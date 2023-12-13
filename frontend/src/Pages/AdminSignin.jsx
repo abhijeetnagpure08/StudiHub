@@ -87,7 +87,7 @@ export const AdminSignin = () => {
         localStorage.setItem("adminToken", res.data.adminToken);
         if (res.data.msg === "Login Sucessful!") {
           signinSuccess(res.data.msg);
-          navigate("/admin");
+          navigate("/admin/dashboard");
         }
         // if (res.data.msg === "Please Fill All The Required Credentials") {
         //   fillAllCredential(res.data.msg);
