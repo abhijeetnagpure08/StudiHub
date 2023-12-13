@@ -8,9 +8,9 @@ Aditya Bhoyar
 Aniket Dekate
 Akash Lolusare
 
-## Links
-- [Live Demo](studi-hub.vercel.app)
-- 
+## Deployed Link
+    studi-hub.vercel.app
+  
   ## Landing Page
 ![image](https://github.com/abhijeetnagpure08/StudiHub/assets/126855474/af1a3c68-b54a-44c8-b3f8-2e8e2a04add2)
 
