@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import { Box, Button, Flex, FormControl, FormLabel, Input, Modal, ModalBody, ModalCloseButton, ModalContent, ModalHeader, ModalOverlay, useDisclosure,ModalFooter } from '@chakra-ui/react'
 
-export const CourseCard = () => {
+export const CourseCard = ({getData}) => {
   const { isOpen, onOpen, onClose } = useDisclosure()
 const initialRef = React.useRef(null)
 const finalRef = React.useRef(null)
@@ -38,7 +38,11 @@ const handleAdd=()=>{
       body:JSON.stringify(obj)
     })
       .then((res) => res.json())
-      .then((data) => console.log(data))
+      .then((data) => {
+        console.log(data)
+        onClose()
+        getData()
+      })
       .catch((err) => console.log(err));
   console.log(JSON.stringify(obj))
 }
@@ -48,8 +52,6 @@ const handleVideos = (value, index) => {
   updatedVideos[index] = value;
   setVideos(updatedVideos);
 }
-
-
   
   return (
      <>
