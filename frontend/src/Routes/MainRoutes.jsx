@@ -111,10 +111,15 @@ export const MainRoutes = () => {
           key={key}
           path={ele.path}
           element={
+            ele.path === "/certificate" ? <>{ele.element}</> :
             <>
               <Navbar /> {ele.element} <Footer />
               {/* {ele.element}  */}
             </>
+          //   <>
+          //   <Navbar /> {ele.element} <Footer />
+          //   {/* {ele.element}  */}
+          // </>
           }
         />
       ))}

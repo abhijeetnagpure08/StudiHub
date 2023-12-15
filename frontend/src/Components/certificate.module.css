@@ -8,6 +8,7 @@
     color: white;
     background-position: center;
     background-size: cover;
+    margin: auto;
     /* background-repeat: no.; */
 }
 #certificate>div:nth-child(1){
@@ -27,22 +28,22 @@
     font-weight: 500;
 }
 #certificate>div:nth-child(1)>h4{
-    margin-top: 50PX;
+    margin-top: 50px;
     letter-spacing: 10PX;
 }
 #certificate>div:nth-child(1)>input{
-    height: 100px;
-    margin-top: -10px;
+    height: 50px;
+    margin-top: 50px;
     width: 500px;
     border: 0px;
     border-bottom: 1px solid white;
     background-color: transparent;
     outline: 0px;
-    font-size: 60px;
+    font-size: 30px;
     text-align: center;
     color: white;
     font-family: 'Dancing Script', cursive;
-    padding: 0px 0px;
+    /* padding: 0px 0px; */
 }
 #certificate>div:nth-child(1)>h5{
     margin-top: 10px;
@@ -89,4 +90,13 @@
     font-weight: 500;
     letter-spacing: 5px;
     font-size: 12px;
+}
+#btn{
+    margin-top: 20px;
+    padding: 8px 14px;
+    font-size: 20px;
+    background-color: #00653b;
+    color: white;
+    border-radius: 5px;
+    border: 1px ;
 }

@@ -1,4 +1,5 @@
 import './App.css';
+import Certificate from './Components/Certificate';
 import { Navbar } from './Components/Navbar';
 import { MainRoutes } from './Routes/MainRoutes';
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       {/* <Navbar /> */}
       <MainRoutes/>
+      {/* <Certificate /> */}
     </div>
   );
 }

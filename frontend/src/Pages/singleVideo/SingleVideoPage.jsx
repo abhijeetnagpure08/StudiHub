@@ -1,12 +1,13 @@
 
 import React, { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import { Box, Button, Flex, Heading, Input, Text } from '@chakra-ui/react';
 import ReactPlayer from 'react-player';
 import './SingleVideoPage.css';
 import CourseContentCard from '../../Components/CourseContentCard';
 import QuestionCard from '../../Components/QuestionCard';
 import Certificate from '../../Components/Certificate';
+import certificate from "../../media/certificate.png"
 
 export const SingleVideoPage = () => {
 
@@ -18,6 +19,7 @@ export const SingleVideoPage = () => {
   const [question, setQuestion] = useState("");
   const [questionData, setQuestionData] = useState('')
   const [loader, setLoader] = useState(false)
+  const navigate = useNavigate()
 
   const { id } = useParams();
   console.log(id)
@@ -143,7 +145,8 @@ export const SingleVideoPage = () => {
                     Get Studi Hub certificate by completing the entire course
                   </Text>
                   <br />
-                  <a href="../../media/certificate.png" target="_blank" download="../../media/certificate.png"><Button colorScheme='blue' bg={'#a435f0'}>Studi Hub Certificate</Button></a>
+                  {/* <a href={certificate} target="_blank" download><Button colorScheme='blue' bg={'#a435f0'}>Studi Hub Certificate</Button></a> */}
+                  <Button colorScheme='blue' bg={'#a435f0'} onClick={()=> navigate("/certificate")}>Studi Hub Certificate</Button>
                 </Box>
               </Flex>
               <Flex className='container4' borderBottom={'1px solid black'}>
